@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Mineral
+
+# Model Form Field configuration
+form: $/dionyseos/mineralarchive/models/mineral/fields.yaml
+
+# Model Class name
+modelClass: Dionyseos\MineralArchive\Models\Mineral
+
+# Default redirect location
+defaultRedirect: dionyseos/mineralarchive/minerals
+
+# Create page
+create:
+    title: Create Mineral
+    redirect: dionyseos/mineralarchive/minerals/update/:id
+    redirectClose: dionyseos/mineralarchive/minerals
+
+# Update page
+update:
+    title: Edit Mineral
+    redirect: dionyseos/mineralarchive/minerals
+    redirectClose: dionyseos/mineralarchive/minerals
+
+# Preview page
+preview:
+    title: Preview Mineral

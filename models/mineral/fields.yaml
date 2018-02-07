@@ -1,0 +1,104 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    id:
+        label: ID
+        disabled: true
+        required: true
+
+    title:
+        label: Titel
+        type: text
+        required: true
+
+    description:
+        label: beschreibung
+        type: richeditor
+        size: huge
+        required: true
+
+    poster:
+        label: Poster
+        type: fileupload
+        required: true
+        mode: image
+        imageHeight: 260
+        imageWidth: 260
+        thumbOptions:
+            mode: crop
+            offset:
+                - 0
+                - 0
+            quality: 90
+            sharpen: 0
+            interlace: false
+            extension: auto
+
+    color:
+        label: Farbe
+        type: text
+        required: true
+
+    hardness:
+        label: Hardness
+        type: text
+        required: true
+
+    density_from:
+        label: Density From
+        type: number
+        required: true
+
+    density_to:
+        label: Density To
+        type: number
+        required: true
+
+    chemical_formula:
+        label: Chemical Formula
+        type: text
+        required: true
+
+    typicality:
+        label: Typicality
+        type: text
+        required: true
+
+    crystal_system:
+        label: Crystal system
+        type: text
+        required: true
+
+    streal_colour:
+        label: Streal Colour
+        type: text
+        required: true
+
+    opacity:
+        label: Opacity
+        type: text
+        required: true
+
+    lustre:
+        label: lustre
+        type: text
+        required: true
+
+    ima_state:
+        label: IMA State
+        type: text
+        required: true
+
+    naming:
+        label: Naming
+        type: text
+        required: true
+
+    synonyms:
+        label: Synonyms
+        type: text
+        required: true
+
+
